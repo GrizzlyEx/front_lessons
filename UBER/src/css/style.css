@@ -107,23 +107,24 @@ nav {
 
 }
 
+
 .promo {
     min-height: 800px;
     background: url(../img/bg_head.jpg) center center/cover no-repeat;
-    padding: 150px 0 135px 0;
+    padding: 135px 0 135px 0;
    /*  transform: translateY(-84px); */
 }
 
 .promo .promo_header {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 67px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-    line-height: 60px;
     margin: 0;
+    margin-top: 60px;
 
 }
 
@@ -172,3 +173,77 @@ nav {
     text-transform: uppercase;
   }
   
+.start_work {
+    min-height: 900px;
+    padding: 71px 43px 40px 35px; /* 40px - velichina na glaz */
+}
+
+.start_work .priv {
+    width: 112px;
+    margin: 0 auto;
+    
+    color: #ffffff;
+    padding: 8px 11px 6px 12px;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000000;
+}
+
+.start_work .reasons {
+    margin-top: 38px;
+    color: #222222;
+    font-size: 38px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;  
+}
+
+.start_work .start_work_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.start_work .start_work_round {  
+    height: 113px;
+    width: 113px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+
+    background-color: #1eacc7;
+    border-radius: 100%;
+   /*  float: left; */ 
+}
+
+.start_work .row {
+    margin-top: 5px;
+    margin-bottom: 68px;
+}
+
+.start_work .start_work_text {
+    display: inline-block;
+    width: 343px;
+    margin-left: 26px;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    line-height: 21px;
+    text-align: justifyLeft;
+}
+
+.start_work .start_work_text .start_work_maintext {
+    color: #1eacc7;
+    font-size: 17px;
+}
