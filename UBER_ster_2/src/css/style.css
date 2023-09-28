@@ -331,8 +331,8 @@ nav {
 .car {
   position: relative;
   padding: 57px 0 138px 0;
-  background: url("../img/bg_car.jpg") bottom center/cover no-repeat;
-  background-position: 0 556px;
+  background: url("../img/bg_car.jpg") center center/100% no-repeat;
+  background-position: 0 545px;
 }
 .car .black {
   position: absolute;
@@ -341,7 +341,7 @@ nav {
   left: -50%;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
-  height: 556px;
+  height: 545px;
   background-color: #070716;
   z-index: -1;
 }
