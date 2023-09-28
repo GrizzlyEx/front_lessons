@@ -1,5 +1,6 @@
 $blue_color: #1eacc7;
 $red_color: #ff5656;
+$car_bg: 545px;
 
 
 * {
@@ -323,15 +324,15 @@ nav {
 .car {
 	position: relative;
 	padding: 57px 0 138px 0;
-	background: url('../img/bg_car.jpg') bottom center/cover no-repeat;
-	background-position: 0 556px;
+	background: url('../img/bg_car.jpg') center center/100% no-repeat;
+	background-position: 0 $car_bg;
 	.black {
 		position: absolute;
 		width: 100%;
 		top: 0;
 		left: -50%;
 		transform: translateX(50%);
-		height: 556px;
+		height: $car_bg;
 		background-color: #070716;
 		z-index: -1;
 	}
